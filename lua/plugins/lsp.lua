@@ -6,6 +6,7 @@ return {
                 underline = false,
                 update_in_insert = false,
             },
+            autoformat = false,
             servers = {
                 pylsp = {
                     plugins = {
