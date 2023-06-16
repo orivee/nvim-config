@@ -18,7 +18,12 @@ return {
                         pylsp_mypy = { enabled = true },
                     },
                     },
-                clangd = {},
+                clangd = {
+                    filetypes = { "c", "cpp", "cc" },
+                    flags = {
+                        debounce_text_changes = 500,
+                    },
+                },
             },
         },
     },
