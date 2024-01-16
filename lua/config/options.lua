@@ -10,3 +10,4 @@ vim.opt.whichwrap:append("<>[]hl")
 
 vim.g.python_recommended_style = 0
 vim.g.tex_flavor = "latex"
+vim.g.autoformat = false
